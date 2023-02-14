@@ -52,7 +52,7 @@ public class IntStack {
         }
     }
     public boolean isEmpty(){
-        return theCapacity == 0;
+        return nextPushLocation == 0;
     }
     /**
 
