@@ -51,8 +51,9 @@ public class IntStack {
             return false;
         }
     }
-
-    // TODO: Add isEmpty() method
+    public boolean isEmpty(){
+        return theCapacity == 0;
+    }
     /**
 
 
